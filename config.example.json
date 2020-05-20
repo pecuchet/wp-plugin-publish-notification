@@ -1,0 +1,16 @@
+{
+  "mail": {
+    "host": "",
+    "username": "",
+    "password": "",
+    "encryption": "",
+    "port": "",
+    "from_addr": "",
+    "from_name": ""
+  },
+  "post_types": [
+    "post"
+  ],
+  "replace_addresses": {},
+  "exclude_addresses": []
+}

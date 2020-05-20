@@ -1,0 +1,23 @@
+{
+    "name": "dotburo/wp-plugin-post-notification",
+    "description": "Send an email notification to all users when a new post is published (code configurable)",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "nette/mail": "^3.1"
+    },
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "dotburo",
+            "email": "code@dotburo.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "dotburo\\PublishNotification\\": "src"
+        }
+    }
+}

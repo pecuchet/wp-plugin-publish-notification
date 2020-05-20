@@ -1,0 +1,5 @@
+.idea
+.swp
+vendor
+config.json
+composer.lock
